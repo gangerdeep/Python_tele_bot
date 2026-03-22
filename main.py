@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 TOKEN = "8283166443:AAHwuqWFuP9YhguBaUNA7ysItH1w8ModRKU"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Bot is Active 🤖✅")
+    await update.message.reply_text("Bot is Online ✅👾")
 
 app = ApplicationBuilder().token(TOKEN).build()
 
